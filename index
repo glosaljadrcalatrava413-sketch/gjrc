@@ -28,15 +28,17 @@
 </head>
  
 <body>
-    <header> <!-- Picture above name --> <img
-            src=""C:\Users\22-0170-920\Documents\GJ\Profile.jpg.jpg"" width="400" height="600";
-            alt="Profile Picture" class="profile-pic"> <!-- Name & Title -->
+    <header>
+        <img src="Profile.jpg" alt="Profile Picture" class="profile-pic">
         <div class="header-text">
             <h1>Glosal Jad R. Calatrava</h1>
             <p>IT Technician</p>
         </div>
-        <nav> <a href="#about">About</a> <a href="#skills">Skills</a> <a href="#experience">Experience</a> <a
-                href="#education">Education</a> <a href="#contact">Contact</a> </nav>
+        <nav> <a href="#about">About</a> 
+              <a href="#skills">Skills</a> 
+              <a href="#experience">Experience</a> 
+              <a href="#education">Education</a> 
+              <a href="#contact">Contact</a> </nav>
     </header>
     <section id="about">
         <h2>About Me</h2>
