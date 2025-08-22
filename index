@@ -1,0 +1,85 @@
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Blackadder ITC, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #64a6e3;
+            color: #333;
+        }
+ 
+        /* Header / header { background: #2c3e50; color: blue; padding: 40px 20px; text-align: center; } / Profile picture above name / .profile-pic { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.2); margin-bottom: 15px; } / Name and title / .header-text h1 { margin: 0; font-size: 2.5em; } .header-text p { margin: 8px 0 0; font-size: 1.1em; opacity: 0.9; } / Navigation / nav { margin-top: 20px; text-align: center; } nav a { margin: 0 15px; color: #f4f4f9; text-decoration: none; font-weight: bold; } nav a:hover { text-decoration: underline; } / Sections / section { max-width: 900px; margin: 30px auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); } h2 { color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 5px; } ul { list-style-type: none; padding: 0; } ul li { margin: 10px 0; } / Footer / footer { text-align: center; padding: 15px; background: #2c3e50; color: white; margin-top: 30px; } / Responsive: smaller picture on mobile */
+        @media (max-width: 600px) {
+            .profile-pic {
+                width: 90px;
+                height: 90px;
+            }
+ 
+            .header-text h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+    <header> <!-- Picture above name --> <img
+            src=""C:\Users\22-0170-920\Documents\GJ\Profile.jpg.jpg"" width="400" height="600";
+            alt="Profile Picture" class="profile-pic"> <!-- Name & Title -->
+        <div class="header-text">
+            <h1>Glosal Jad R. Calatrava</h1>
+            <p>IT Technician</p>
+        </div>
+        <nav> <a href="#about">About</a> <a href="#skills">Skills</a> <a href="#experience">Experience</a> <a
+                href="#education">Education</a> <a href="#contact">Contact</a> </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>  Learning and exploring the wide world of Technologies to grasp the knowledge in it, tried my best to achieve it. I may be shy and silent but still do my best to cooperate and communicate to gain trust. Being a good learner might be receiving proper knowledge to achieve a goal and make a better future.  </p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Hardware setup</li>
+            <li>Resourceful</li>
+            <li>Adaptability</li>
+            <li>Critical Thinking</li>
+            <li>Dependabiltity</li>
+        </ul>
+    </section>
+    <section id="experience">
+        <h2>Experiences</h2>
+        <ul>
+            <li><strong>Troubleshooting</strong> - I have hands-on experience in troubleshooting hardware, software, and network issues to quickly resolve technical problems and support system reliability to ensure smooth IT operations and minimize downtime. </li>
+            <li><strong>Hardware setup</strong> -  I have a knowledge and ability to work with physical components of computers parts and other electronic devices. </li>
+            <li><strong>Office Tools</strong> - I have experience in encompassing document creation, data analysis, presentation design, and email management.</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>High School Diploma</strong> – Sum-ag National High School (2013–2019)</li>
+            <li><strong>Senior High School Diploma</strong> – Notre Dame of Bago City (2019–2021)</li>
+            <li><strong>Bachelor of Science in Information Technology</strong> – STI West Negros University (2022–2026)
+            </li>
+            
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Mail: glosaljadr.calatrava413@gmail.com</p>
+        <p>Phone: +63 9924878406</p>
+        <p>Facebook: Glosal Jad Rosquillo Calatrava</p>
+        <p>Address: 287 Araneta St. Prk. Santanville Brgy.Sum-ag B.C Neg.Occ. Philippines<p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Calatrava. All rights reserved.</p>
+    </footer>
+</body>
+ 
+</html>
